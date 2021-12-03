@@ -1,0 +1,61 @@
+.create-plan{
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 100%;
+    height: 350px;
+    background-image: url("https://telegra.ph/file/fe157faab2163090ffaf1.jpg");
+    // background: rgb(43, 83, 3);
+    background-size: cover;
+    
+    padding: 30px;
+    color: white;
+}
+
+.create-title >h1{
+    font-size: 72px;
+    margin-bottom: 0;
+}
+.create-title >p{
+    margin-top: 0;
+    width: 40%;
+}
+
+
+.coffee-types{
+    margin-top: 40px;
+    border-radius: 5px;
+    background: rgba(44, 52, 62, 1);
+    width: 100%;
+    height: 600px;
+}
+
+
+.coffee-types{
+    padding: 20px 50px;
+}
+
+.coffee-type-border{
+    border: 1px solid rgba(14, 135, 132, 1);
+    background: inherit;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 50px 0;
+    // z-index: 1;
+}
+.coffee-type-border-line{
+    border: 1px solid rgba(253, 214, 186, 1);
+    width: 100%;
+    height: 1px;
+    position: relative;
+    top: -61px;
+    left: 10px;
+    // z-index: 0;
+}
+
+.coffee-type-card{
+    width: 33%;
+}
+.coffee-type-card >div:nth-child(4), .coffee-type-card >div:nth-child(5){
+    color: white;
+}

@@ -1,0 +1,22 @@
+.about-us{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+    background: url("https://telegra.ph/file/6f7826c4ca09bbd2cb8e4.png") no-repeat;
+    // background: rgb(43, 83, 3);
+    background-size: cover;
+    
+    padding: 50px;
+    color: white;
+}
+.about-us-title{
+  width: 40%;
+}
+.about-us-title >h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.about-us-title >p{
+    margin-top: 5px;
+}

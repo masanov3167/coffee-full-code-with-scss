@@ -1,0 +1,26 @@
+.our-collect{
+    margin: 70px;
+}
+
+.our-collect-name{
+    font-size: 130px;
+    background: linear-gradient(grey, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.collection-card{
+    width: 23%;
+}
+
+.collection-card-title >p{
+    line-height: 23px;
+    color: rgba(51, 61, 75, 1);
+}
+
+.collection-card-container{
+    width: 97%;
+
+    position: relative;
+    top: -150px;
+}

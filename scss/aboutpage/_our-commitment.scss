@@ -1,0 +1,19 @@
+.commitment-container{
+    margin-top: 100px;
+}
+
+.commitment-left, .commitment-right{
+    width: 45%;
+    margin: 0 30px;
+}
+
+.commitment-left >img{
+   border-radius: 5px;
+}
+
+.commitment-right{
+    text-align: left;
+}
+.commitment-right >h1{
+    font-size: 38px;
+}

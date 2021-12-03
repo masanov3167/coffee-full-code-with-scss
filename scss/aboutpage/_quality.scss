@@ -1,0 +1,24 @@
+.quality{
+    margin-top: -100px;
+    border-radius: 5px;
+    background: rgba(44, 52, 62, 1);
+    color: white;
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+}
+
+.quality-img >img{
+    border-radius: 5px;
+    position: relative;
+    left: 60%;
+    bottom: -200px;
+}
+
+.quality-title{
+    width: 45%;
+}
+.quality-title >h1{
+    font-size: 34px;
+    margin-bottom: 0;
+}

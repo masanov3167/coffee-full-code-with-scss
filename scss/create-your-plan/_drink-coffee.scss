@@ -1,0 +1,66 @@
+.drink-coffee-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    // padding: 40px 40px;
+}
+.drink-coffee-right, .drink-coffee-left{
+    margin: 0 40px;
+}
+.drink-coffee-left{
+    width: 24%;
+    font-size: 24px;
+    color: rgb(110, 113, 117)
+}
+.drink-coffee-left >li{
+    margin: 15px 0;
+}
+.drink-coffee-left >li >span{
+     position: relative;
+     left: 20px;
+}
+
+.drink-coffee-left >li >span:hover{
+    color: rgba(51, 61, 75, 1);
+}
+
+.drink-coffee-right{
+    width: 60%;
+}
+
+.drink-coffee-title{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.drink-coffee-title{
+    font-size: 22px;
+    width: 100%;
+}
+.drink-coffee-title:hover{
+    color: rgba(131, 136, 143, 1);
+}
+
+
+
+.drink-coffee-card{
+    width: 100%;
+    padding: 0;
+    // display: block;
+    // opacity: 0;
+}
+.drink-coffee-card >li{
+    padding: 20px;
+    
+    border-radius: 5px;
+    background: rgba(244, 241, 235, 1);
+    width: 30%;
+    height: 220px;
+}
+
+.drink-coffee-card >li:hover{
+    background: rgba(14, 135, 132, 1);
+    color: white;
+}
+

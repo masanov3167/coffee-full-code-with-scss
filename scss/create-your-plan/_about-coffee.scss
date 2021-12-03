@@ -1,0 +1,54 @@
+.about-coffee-container{
+    width: 60%;
+    position: relative;
+    left: 360px;
+    margin: 80px 0;
+}
+
+.about-coffee-card{
+    width: 100%;
+    padding: 0;
+}
+
+.about-coffee-card >li{
+    padding: 20px;
+    
+    border-radius: 5px;
+    background: rgba(244, 241, 235, 1);
+    width: 30%;
+    height: 220px;
+}
+
+.about-coffee-card >li:hover{
+    background: rgba(14, 135, 132, 1);
+    color: white;
+}
+
+.about-coffee-card >li >h1{
+    font-size: 20px;
+}
+
+
+
+.order-summary{
+    // width: 60%;
+    padding: 10px 30px;
+    height: 200px;
+    background: rgba(44, 52, 62, 1);
+}
+
+.order-summary >h1{
+    font-size: 24px;
+    color: white;
+}
+.order-summary >h1 >span{
+    color: rgb(13, 58, 13);
+}
+.order-summary >p{
+    color: rgb(172, 167, 167);
+}
+
+.border-container{
+    position: relative;
+    left: 74%;
+}

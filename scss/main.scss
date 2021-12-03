@@ -1,0 +1,38 @@
+@import "./variables";
+
+@import "./all-blocks/all-blocks";
+
+@import "./aboutpage/aboutpage";
+
+@import "./create-your-plan/create-your-plan";
+
+@import "./lastpage/lastpage";
+
+*{
+    box-sizing: border-box;
+}
+
+.space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-evenly{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center{
+    text-align: center;
+}
+.full-center{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.list-style{
+   list-style: none;
+}
